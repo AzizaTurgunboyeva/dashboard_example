@@ -1,20 +1,13 @@
 import React, { Fragment } from "react";
 
 import { Link, Outlet } from "react-router";
-import Navbar from "../layout/navbar";
-
-
-
-
-
-
-
+import Navbar from "../layout/Navbar";
 
 function Dashboard() {
   return (
     <Fragment>
       <div className="h-[100vh] m-1.5  ">
-        < Navbar/>
+        <Navbar />
         <div className="flex">
           <div className="border-t-0 text-xl  w-[200px] text-[#24feee] bg-[#262d6d]">
             <ul className="p-4 ">
@@ -40,4 +33,4 @@ function Dashboard() {
     </Fragment>
   );
 }
-export default Dashboard
+export default Dashboard;
